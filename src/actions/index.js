@@ -10,3 +10,9 @@ export const decrement = () => dispatch =>{
         type:"DECREMENT"
     })
 }
+
+export const sign_in = () => dispatch => {
+    dispatch({
+        type:"SIGN_IN"
+    })
+}
